@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Battery Full Charge alarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="battery_status">Charging</string>
+    <string name="lbl_battery_label">Battery Level :</string>
+    <string name="battery_label">85%</string>
+    <string name="lbl_battery_status">Battery Status :</string>
+    <string name="lbl_battery_capacity">Battery Capacity :</string>
+    <string name="lbl_battery_remain">Remaining Time :</string>
+</resources>
