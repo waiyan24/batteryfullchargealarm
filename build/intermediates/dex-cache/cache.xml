@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-2382da1b6f865692ab6fab847ded563b64ba952b.jar" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/classes-98d3d92cce93f001a59b7ee3849719981f01e470.jar" />
     </item>
     <item
         jar="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
@@ -16,18 +16,11 @@
         <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/classes-ecdc31a8e5745d5d6b1f93f6be4ec4bb213e902c.jar" />
     </item>
     <item
-        jar="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/classes-98d3d92cce93f001a59b7ee3849719981f01e470.jar" />
-    </item>
-    <item
-        jar="/opt/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-8d6d7ca82afb3dc2f30d3f5ed04cf1db09b44747.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-2382da1b6f865692ab6fab847ded563b64ba952b.jar" />
     </item>
     <item
         jar="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
@@ -42,6 +35,13 @@
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
         <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/classes-20481200dbe6238b175a40ca47b685a09571d5b3.jar" />
+    </item>
+    <item
+        jar="/opt/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/media/waiyanphyo/DATA/AndroidStudioProjects/batteryfullchargealarm/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-8d6d7ca82afb3dc2f30d3f5ed04cf1db09b44747.jar" />
     </item>
 
 </items>

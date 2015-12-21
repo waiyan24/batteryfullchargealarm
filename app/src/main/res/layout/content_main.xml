@@ -49,47 +49,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/lbl_battery_capacity"
-        android:text="@string/lbl_battery_capacity"
-        android:layout_below="@+id/lbl_battery_status"
+    <Button
+        android:id="@+id/show_noti"
+        android:text="Test Notification"
+        android:layout_below="@id/lbl_battery_status"
         android:layout_marginTop="20dp"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/battery_capacity"
-        android:text="87687"
-        android:layout_toRightOf="@+id/lbl_battery_capacity"
-        android:layout_toEndOf="@+id/lbl_battery_capacity"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_below="@+id/battery_status"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/lbl_battery_remain"
-        android:text="@string/lbl_battery_remain"
-        android:layout_below="@+id/lbl_battery_capacity"
-        android:layout_marginTop="20dp"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/battery_remain"
-        android:text="2hr"
-        android:layout_toRightOf="@+id/lbl_battery_remain"
-        android:layout_toEndOf="@+id/lbl_battery_remain"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_below="@+id/battery_capacity"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
