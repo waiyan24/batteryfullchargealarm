@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
         Intent notificationIntent = new Intent(this,MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
 
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.kyo_nint_tot);
+//        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.kyo_nint_tot);
+        Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         Notification noti = new Notification.Builder(getApplicationContext())
                 .setContentTitle(notificationTitle)
                 .setContentText(notificationMessage)

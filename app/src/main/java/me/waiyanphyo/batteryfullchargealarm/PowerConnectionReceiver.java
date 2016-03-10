@@ -1,5 +1,6 @@
 package me.waiyanphyo.batteryfullchargealarm;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -12,6 +13,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.nfc.Tag;
 import android.os.BatteryManager;
+import android.os.Build;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -42,15 +44,15 @@ public class PowerConnectionReceiver extends BroadcastReceiver {
     private void Notify(String notificationTitle,String notificationMessage,Context context){
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
 
-        Uri uri = Uri.parse("android.resource://" + context.getPackageName() + "/" + R.raw.kyo_nint_tot);
+//        Uri uri = Uri.parse("android.resource://" + context.getPackageName() + "/" + R.raw.kyo_nint_tot);
         Notification noti = new Notification.Builder(context.getApplicationContext())
                 .setContentTitle(notificationTitle)
                 .setContentText(notificationMessage)
                 .setSmallIcon(R.mipmap.bat_full)
-                .setSound(uri)
+//                .setSound(uri)
                 .setAutoCancel(true)
                 .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000})
-                .build();
+                .getNotification();
 
         notificationManager.notify(0, noti);
     }
